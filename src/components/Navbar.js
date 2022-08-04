@@ -16,13 +16,13 @@ export class Navbar extends Component {
                                 <li className="nav-item">
                                     <Link className="nav-link" aria-current="page" to="/">Home</Link>
                                 </li>
-                                <li className="nav-item"><Link to="/business" className="nav-link">Business</Link></li>
-                                <li className="nav-item"><Link to="/entertainment" className="nav-link">Entertainment</Link></li>
-                                <li className="nav-item"><Link to="/general" className="nav-link">General</Link></li>
-                                <li className="nav-item"><Link to="/health" className="nav-link">Health</Link></li>
-                                <li className="nav-item"><Link to="/science" className="nav-link">Science</Link></li>
-                                <li className="nav-item"><Link to="/sports" className="nav-link">Sports</Link></li>
-                                <li className="nav-item"><Link to="/technology" className="nav-link">Technology</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="/business">Business</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="/entertainment">Entertainment</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="/general">General</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="/health">Health</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="/science">Science</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
+                                <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>
                             </ul>
                         </div>
                     </div>
